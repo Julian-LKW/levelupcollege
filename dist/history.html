@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Up College History</title>
+    <link rel="icon" href="./img/Updated logo.png">
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+
+  <body class="font-Roboto">
+
+        <!-- Header Start -->
+
+        <header class="shadow-sm bg-gray-100 fixed z-50 w-full">
+            <nav
+              class="flex justify-between items-center w-11/12 min-w-fit mx-auto p-3 gap-1"
+            >
+              <div class="flex items-center gap-3 cursor-pointer">
+                <img src="./img/Updated logo.png" alt="" class="w-14 h-14" />
+                <div class="hidden lg:block">
+                  <h1 class="font-bold text-[20px]">Level Up College</h1>
+                  <h1 class="text-[12px]">
+                    Diploma in Social and Development Studies
+                  </h1>
+                </div>
+              </div>
+      
+              <div class="hidden lg:block">
+                <ul class="flex gap-5 font-medium items-center">
+                  <li class="hover:text-brand-500 transition duration-200">
+                    <a href="./index.html">Home</a>
+                  </li>
+                  <li class="flex gap-1 relative group">
+                    <a href="#" class="group-hover:text-brand-500">About Us</a>
+                    <div class="block group-hover:hidden">
+                      <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="hidden group-hover:block">
+                      <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                    <ul
+                      class="absolute -left-4 p-2 rounded-lg translate-y-0 group-hover:translate-y-6 duration-200 transition-all ease-in opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 w-[200px] shadow-sm"
+                    >
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./who_are_we.html">Who are we?</a>
+                      </li>
+                      <li
+                      class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                    >
+                      <a href="./history.html">History</a>
+                    </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./vision_mission.html">Vision/Mission</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./learning_strategy.html">Learning Strategy</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./staffs_smt.html">Staffs/SMT</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./structure.html">Structure</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="flex gap-1 group relative">
+                    <a href="#" class="group-hover:text-brand-500">Academic</a>
+                    <div class="block group-hover:hidden">
+                      <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="hidden group-hover:block" id="up-arrow1">
+                      <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                    <ul
+                      class="absolute -left-4 p-2 rounded-lg translate-y-0 group-hover:translate-y-6 duration-200 transition-all ease-in opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 w-[200px] shadow-sm"
+                    >
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./diploma_program.html">Diploma Program</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./bridging_program.html">Bridging Program</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./admission.html">Admission</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./residential_support.html">Residential Support</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./library.html">Library</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="flex gap-1 group relative">
+                    <a href="#" class="group-hover:text-brand-500">Community</a>
+                    <div class="block group-hover:hidden">
+                      <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="hidden group-hover:block" id="up-arrow2">
+                      <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                    <ul
+                      class="absolute -left-4 p-2 rounded-lg translate-y-0 group-hover:translate-y-6 duration-200 transition-all ease-in opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 w-[200px] shadow-sm"
+                    >
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./alumni.html">Alumni</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./ac_members.html">AC Members</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./students_council.html">Students Council</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./students_department.html">Students Department</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./students_club.html">Students Club</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="flex gap-1 group relative">
+                    <a href="#" class="group-hover:text-brand-500">News</a>
+                    <div class="block group-hover:hidden">
+                      <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="hidden group-hover:block" id="up-arrow3">
+                      <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                    <ul
+                      class="absolute -left-4 p-2 rounded-lg translate-y-0 group-hover:translate-y-7 duration-200 transition-all ease-in opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 w-[200px] shadow-sm"
+                    >
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./blog.html">Blog</a>
+                      </li>
+                      <li
+                        class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                      >
+                        <a href="./work_with_us.html">Work With Us</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="./contact_us.html" class="hover:text-brand-500"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <button
+                    class="px-3 py-2 bg-brand-500 rounded-lg hover:bg-brand-400 hover:shadow-sm duration-200 active:scale-50"
+                  >
+                    <a href="./support_us.html">Support Us</a>
+                  </button>
+                </ul>
+              </div>
+      
+              <!-- Mobile Menu -->
+              <div class="flex items-center gap-5 lg:hidden">
+                <button
+                  class="lg:hidden font-bold px-3 py-2 bg-brand-500 rounded-lg hover:bg-brand-400 hover:shadow-sm"
+                >
+                  <a href="./support_us.html" class="text-sm">Support Us</a>
+                </button>
+                <button class="lg:hidden" id="mobile-menu-button">
+                  <div class="w-5" id="open-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path
+                        d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="w-5 hidden" id="close-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                      <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </nav>
+            <div class="hidden absolute w-full lg:hidden" id="mobile-menu">
+              <ul class="bg-gray-100 w-full px-8 pb-4 shadow-sm">
+                <li class="p-2 hover:text-brand-500 hover:bg-white font-bold">
+                  <a href="./index.html">Home</a>
+                </li>
+                <li
+                  class="p-2 hover:text-brand-500 hover:bg-white font-bold flex gap-2"
+                  id="about-us"
+                >
+                  <a href="#">About Us</a>
+                  <div class="block"><i class="fa-solid fa-angle-down"></i></div>
+                </li>
+                <ul id="sub-about-us" class="hidden">
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./who_are_we.html">Who are we?</a>
+                  </li>
+                  <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                >
+                  <a href="./history.html">History</a>
+                </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./vision_mission.html">Vision/Mission</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./learning_strategy.html">Learning Strategy</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./staffs_smt.html">Staffs/SMT</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./structure.html">Structure</a>
+                  </li>
+                </ul>
+      
+                <li
+                  class="p-2 hover:text-brand-500 hover:bg-white font-bold flex gap-2"
+                  id="academic-menu"
+                >
+                  <a href="#">Academic</a>
+                  <div class="block"><i class="fa-solid fa-angle-down"></i></div>
+                </li>
+                <ul id="sub-academic" class="hidden">
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./diploma_program.html">Diploma Program</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./admission.html">Admission</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./residential_support.html">Residential Support</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./library.html">Library</a>
+                  </li>
+                </ul>
+      
+                <li
+                  class="p-2 hover:text-brand-500 hover:bg-white font-bold flex gap-2"
+                  id="community-menu"
+                >
+                  <a href="#">Community</a>
+                  <div class="block"><i class="fa-solid fa-angle-down"></i></div>
+                </li>
+                <ul id="sub-community" class="hidden">
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./alumni.html">Alumni</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./ac_members.html">AC Members</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./students_council.html">Student Council</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./students_department.html">Student Department</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./students_club.html">Student Clubs</a>
+                  </li>
+                </ul>
+      
+                <li
+                  class="p-2 hover:text-brand-500 hover:bg-white font-bold flex gap-2"
+                  id="news-menu"
+                >
+                  <a href="#">News</a>
+                  <div class="block"><i class="fa-solid fa-angle-down"></i></div>
+                </li>
+                <ul id="sub-news" class="hidden">
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./blog.html">Blog</a>
+                  </li>
+                  <li
+                    class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+                  >
+                    <a href="./work_with_us.html">Work With Us</a>
+                  </li>
+                </ul>
+                <li class="p-2 hover:text-brand-500 hover:bg-white font-bold">
+                  <a href="./contact_us.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </header>
+      
+          <!-- end of header -->
+      
+
+          <!-- hero section start -->
+          <!-- <section class="">
+            <div
+              class="bg-[url('./img/school_pic.JPG')] h-[550px] w-full bg-cover bg-bottom relative"
+            >
+              <div
+                class="absolute bg-black w-full h-full bg-opacity-0 flex justify-center items-center"
+              >
+                <h1 class="text-5xl font-bold text-brand-500">History of Level Up College</h1>
+              </div>
+            </div>
+          </section> -->
+
+<section>
+          <div class="relative w-full min-h-[600px] overflow-hidden pt-20">
+           <!-- Background Image with Overlay -->
+          
+                 <div class="absolute inset-0">
+                <img src="./img/Diploma.jpg" alt="" class="w-full h-full object-cover" />
+                <!-- Dark overlay that appears only in dark mode -->
+                <div class="absolute inset-0 bg-black/0 dark:bg-black/40"></div>
+            </div>
+
+            <div class="relative w-full md:w-[600px] lg:w-[700px] p-8 md:p-12 mt-8 md:mt-12 mx-auto md:mr-8 lg:mr-12">
+                <div class="bg-white/90  p-8 rounded-lg backdrop-blur-sm">
+                    <div class="max-w-2xl">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4 ">
+                          Our History
+                        </h2>
+
+                        <p class="text-gray-700 text-base md:text-lg mb-6">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit sed quod, nihil recusandae eligendi veniam, obcaecati dolorem hic sequi, minima nam maiores ex. Dolor praesentium, vero accusamus rem quod blanditiis!
+                    </div>
+                </div>
+            </div>
+            </div>
+            </section>
+
+
+          <!-- hero section End -->
+
+          <!-- article start -->
+          <section class="container mx-auto flex flex-col justify-center items-center mt-10 p-5 leading-8 space-y-3  md:px-52 ">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">History of Level Up College</h1>
+            <article>
+              Level Up College was founded in 2012 by a team of inspired youth from Kayah/Karenni State under the guidance of <strong>Bishop Sotero Phamo</strong>. The college was established through the partnership with the <strong>Myanmar Community Academies Program (MCAP)</strong> under the <strong>Thabyay Foundation</strong>, with the recommendation and support of the <strong>Youth Life Formation Center (YLFC)</strong> and collaborative efforts from various community leaders
+            </article>
+            <article>
+              Initially, Level Up College was launched as an extension program of YLFC in Loikaw and was named <strong>YLFC-Level Up Program</strong>. In 2013, it was officially registered as <strong>Level Up Academy</strong> with the Township Education Ministry Office.
+            </article>
+            <article>
+              Level Up College is dedicated to supporting youth from diverse backgrounds by equipping them with the skills and knowledge needed to create a lasting, positive impact in their communities. The college offers a <strong>Diploma in Social and Development Studies</strong>, originally designed to provide educational opportunities for:
+            </article>
+            
+            <ul class="font-bold border-y border-black py-6 text-xl ">
+              <li > &#x25C9 Youth who have completed high school but have limited access to higher education.</li>
+              <li>&#x25C9 University graduates who are unprepared for available job opportunities.</li>
+              <li>&#x25C9 Students from conflict-affected areas who have lost access to higher education due to gaps in the formal educational pathway.</li>
+            </ul>
+            <article>Over time, the college has continued to address the growing demand for quality higher education in the region, especially as more students face challenges caused by the global pandemic and national crises since 2020.
+            </article>
+            <article>
+              The institution began with an 18-month <strong>Certificate Program in Intensive Community Development and Leadership</strong>, which was later upgraded to the two year <strong>Diploma Program</strong>. Additionally, the college has initiated various other programs, including:Bridging Program, Youth Skills and Community Engagement Program, Oasis Program, Career Pathway Program, University Preparation Program (UP Program) and Summer English Program. Despite national instability and crises, the college has relocated multiple times but has remained steadfast in its commitment to serving youth. Guided by its strategic vision, <strong>Level Up College is preparing to offer a degree program in the near future.</strong>
+            </article>
+            <article>
+              As of December 2024, Level Up College has conducted nine commencement ceremonies and has built a strong alumni network, with graduates actively working in the development sector. The college continues to stand as a community-based higher education institution, committed to training local youth as agents of positive change in their communities.
+            </article>
+            <article>
+              Level Up College is a key member of <strong>Myanmar Colleges Consortium(MCC)</strong> which is a cohesive, high-quality educational network that empowers institutions and enhances academic excellence across Myanmar.
+            </article>
+          </section>
+          
+          <!-- article end -->
+
+          <!-- photo start -->
+            <!-- <section class="grid grid-cols-4 ">
+              <div class="bg-[url('./img/2018_Culture_Exchange/Inn.jpg')] h-60 bg-no-repeat bg-center bg-cover"> </div>
+              <div class="bg-[url('./img/2018_Culture_Exchange/Inn1.jpg')] h-60 bg-no-repeat bg-center bg-cover"> </div>
+              <div class="bg-[url('./img/2018_Culture_Exchange/Inn3.jpg')] h-60 bg-no-repeat bg-center bg-cover"> </div>
+              <div class="bg-[url('./img/2018_Culture_Exchange/Inn4.jpg')] h-60 bg-no-repeat bg-center bg-cover"> </div>
+              <div class="bg-[url('./img/2018_Culture_Exchange/Inn.jpg')] h-60 bg-no-repeat bg-center bg-cover"> </div>
+              <div class="bg-[url('./img/2018_Culture_Exchange/Inn1.jpg')] h-60 bg-no-repeat bg-center bg-cover"> </div>
+              <div class="bg-[url('./img/2018_Culture_Exchange/Inn3.jpg')] h-60 bg-no-repeat bg-center bg-cover"> </div>
+              <div class="bg-[url('./img/2018_Culture_Exchange/Inn4.jpg')] h-60 bg-no-repeat bg-center bg-cover"> </div>
+            </section> -->
+          <!-- photo end -->
+
+
+          <!-- timeline start -->
+
+          <div class=" p-4 mt-5">
+            <h2 class="text-5xl text-center font-bold mb-12">Timeline</h2>
+            <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
+              <!-- Set 1 start -->
+                <div class="flex md:contents flex-row-reverse">
+                    <div
+                        class="relative p-4 my-6 text-gray-800 bg-brand-500 rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto hover:scale-105 hover:shadow-lg duration-200 cursor-pointer">
+                        <h3 class="text-lg font-semibold lg:text-xl border-b border-black pb-2">New Event 1</h3>
+                        <p class="mt-2 leading-6">Description of the first event.</p>
+                        <span class="absolute text-sm text-black -top-5 left-2 whitespace-nowrap">Date 1</span>
+                    </div>
+                    <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                        <div class="flex items-center justify-center w-6 h-full">
+                            <div class="w-1 h-full bg-gray-800 rounded-t-full ">
+                            </div>
+                        </div>
+                        <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-brand-500 rounded-full top-1/2"></div>
+                    </div>
+                </div>
+        
+                <div class="flex md:contents">
+                    <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                        <div class="flex items-center justify-center w-6 h-full">
+                            <div class="w-1 h-full bg-gray-800"></div>
+                        </div>
+                        <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-brand-500 rounded-full top-1/2"></div>
+                    </div>
+                    <div class="relative p-4 my-6 text-gray-800 bg-brand-500 rounded-xl col-start-6 col-end-10 mr-auto hover:scale-105 hover:shadow-lg duration-200 cursor-pointer">
+                        <h3 class="text-lg font-semibold lg:text-xl border-b border-black pb-2">New Event 2</h3>
+                        <p class="mt-2 leading-6">Description of the second event.</p>
+                        <span class="absolute text-sm text-black -top-5 left-2 whitespace-nowrap">Date 2</span>
+                    </div>
+                </div>
+
+                <!-- one set -->
+
+                              <!-- Set 1 start -->
+                              <div class="flex md:contents flex-row-reverse">
+                                <div
+                                    class="relative p-4 my-6 text-gray-800 bg-brand-500 rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto hover:scale-105 hover:shadow-lg duration-200 cursor-pointer">
+                                    <h3 class="text-lg font-semibold lg:text-xl border-b border-black pb-2">New Event 1</h3>
+                                    <p class="mt-2 leading-6">Description of the first event.</p>
+                                    <span class="absolute text-sm text-black -top-5 left-2 whitespace-nowrap">Date 1</span>
+                                </div>
+                                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                                    <div class="flex items-center justify-center w-6 h-full">
+                                        <div class="w-1 h-full bg-gray-800 rounded-t-full ">
+                                        </div>
+                                    </div>
+                                    <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-brand-500 rounded-full top-1/2"></div>
+                                </div>
+                            </div>
+                    
+                            <div class="flex md:contents">
+                                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                                    <div class="flex items-center justify-center w-6 h-full">
+                                        <div class="w-1 h-full bg-gray-800"></div>
+                                    </div>
+                                    <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-brand-500 rounded-full top-1/2"></div>
+                                </div>
+                                <div class="relative p-4 my-6 text-gray-800 bg-brand-500 rounded-xl col-start-6 col-end-10 mr-auto hover:scale-105 hover:shadow-lg duration-200 cursor-pointer">
+                                    <h3 class="text-lg font-semibold lg:text-xl border-b border-black pb-2">New Event 2</h3>
+                                    <p class="mt-2 leading-6">Description of the second event.</p>
+                                    <span class="absolute text-sm text-black -top-5 left-2 whitespace-nowrap">Date 2</span>
+                                </div>
+                            </div>
+            
+                            <!-- one set -->
+            
+                
+        
+            </div>
+        </div>
+
+          <!-- timeline end -->
+
+
+    <!-- Footer Start -->
+
+    <footer class="bg-gray-800">
+        <section
+          class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+        >
+          <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="sm:col-span-2">
+              <a
+                href="./index.html"
+                aria-label="Go home"
+                title="College"
+                class="inline-flex items-center"
+              >
+                <img src="./img/Updated logo.png" alt="" class="w-10" />
+                <span
+                  class="ml-2 text-xl font-bold tracking-wide text-gray-200 uppercase"
+                  >Level Up College</span
+                >
+              </a>
+              <div class="mt- lg:max-w-lg">
+                <p class="text-sm text-gray-200">
+                  Level Up College is a community-based, non-profit higher
+                  education institution empowering youth from diverse backgrounds,
+                  especially those from marginalized communities and
+                  conflict-affected areas in Kayah (Karenni) State and the nearby
+                  region..
+                </p>
+              </div>
+            </div>
+            <div class="space-y-2 text-sm">
+              <p class="text-base font-bold tracking-wide text-gray-200">
+                Contacts
+              </p>
+              <div class="flex">
+                <p class="mr-1 text-gray-200 font-semibold">Phone:</p>
+                <a
+                  href="tel:850-123-5021"
+                  aria-label="Our phone"
+                  title="Our phone"
+                  class="text-gray-200"
+                  >09-7954345234</a
+                >
+              </div>
+              <div class="flex">
+                <p class="mr-1 text-gray-200 font-semibold">Email:</p>
+                <a
+                  href="#"
+                  aria-label="Our email"
+                  title="Our email"
+                  class="text-gray-200"
+                  >levelup.loikaw@gmail.com</a
+                >
+              </div>
+              <div class="flex">
+                <p class="mr-1 text-gray-200 font-semibold">Address:</p>
+                <a
+                  href="https://www.google.com/maps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Our address"
+                  title="Our address"
+                  class="text-gray-200"
+                >
+                  312 Lovely Street, Loikaw, Kayah State(Karenni).
+                </a>
+              </div>
+            </div>
+            <div>
+              <span class="text-base font-bold tracking-wide text-gray-200"
+                >Social</span
+              >
+              <div class="flex items-center mt-1 space-x-3">
+                <a
+                  href="/"
+                  class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                    <path
+                      d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="/"
+                  class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
+                    <circle cx="15" cy="15" r="4"></circle>
+                    <path
+                      d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="/"
+                  class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                    <path
+                      d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <p class="mt-4 text-sm text-gray-200">
+                Let's keep in touch by joining our social media platform.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-black lg:flex-row"
+          >
+            <p class="text-sm text-gray-200">
+              © Copyright 2025 Level Up College. All rights reserved.
+            </p>
+            <ul
+              class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row"
+            >
+              <li>
+                <a
+                  href="/"
+                  class="text-sm text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  >F.A.Q</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="text-sm text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="text-sm text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  >Terms &amp; Conditions</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </footer>
+  
+      <!-- Footer End -->
+  
+  
+  
+      <script src="./app.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="./swapper.js"></script>
+
+    </body>
+  </html>

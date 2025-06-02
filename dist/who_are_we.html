@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Up College Who We Are</title>
+    <link rel="icon" href="./img/Updated logo.png">
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body class="font-Roboto">
+    <!-- Header Start -->
+
+    <header class="shadow-sm bg-gray-100 fixed z-50 w-full">
+      <nav
+        class="flex justify-between items-center w-11/12 min-w-fit mx-auto p-3 gap-1"
+      >
+        <div class="flex items-center gap-3 cursor-pointer">
+          <img src="./img/Updated logo.png" alt="" class="w-14 h-14" />
+          <div class="hidden lg:block">
+            <h1 class="font-bold text-[20px]">Level Up College</h1>
+            <h1 class="text-[12px]">
+              Diploma in Social and Development Studies
+            </h1>
+          </div>
+        </div>
+
+        <div class="hidden lg:block">
+          <ul class="flex gap-5 font-medium items-center">
+            <li class="hover:text-brand-500 transition duration-200">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="flex gap-1 relative group">
+              <a href="#" class="group-hover:text-brand-500">About Us</a>
+              <div class="block group-hover:hidden">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="hidden group-hover:block">
+                <i class="fa-solid fa-angle-up"></i>
+              </div>
+              <ul
+                class="absolute -left-4 p-2 rounded-lg translate-y-0 group-hover:translate-y-6 duration-200 transition-all ease-in opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 w-[200px] shadow-sm"
+              >
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./who_are_we.html">Who are we?</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./history.html">History</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./vision_mission.html">Vision/Mission</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./learning_strategy.html">Learning Strategy</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./staffs_smt.html">Staffs/SMT</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./structure.html">Structure</a>
+                </li>
+              </ul>
+            </li>
+            <li class="flex gap-1 group relative">
+              <a href="#" class="group-hover:text-brand-500">Academic</a>
+              <div class="block group-hover:hidden">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="hidden group-hover:block" id="up-arrow1">
+                <i class="fa-solid fa-angle-up"></i>
+              </div>
+              <ul
+                class="absolute -left-4 p-2 rounded-lg translate-y-0 group-hover:translate-y-6 duration-200 transition-all ease-in opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 w-[200px] shadow-sm"
+              >
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./diploma_program.html">Diploma Program</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./bridging_program.html">Bridging Program</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./admission.html">Admission</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./residential_support.html">Residential Support</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./library.html">Library</a>
+                </li>
+              </ul>
+            </li>
+            <li class="flex gap-1 group relative">
+              <a href="#" class="group-hover:text-brand-500">Community</a>
+              <div class="block group-hover:hidden">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="hidden group-hover:block" id="up-arrow2">
+                <i class="fa-solid fa-angle-up"></i>
+              </div>
+              <ul
+                class="absolute -left-4 p-2 rounded-lg translate-y-0 group-hover:translate-y-6 duration-200 transition-all ease-in opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 w-[200px] shadow-sm"
+              >
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./alumni.html">Alumni</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./ac_members.html">AC Members</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./students_council.html">Students Council</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./students_department.html">Students Department</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./students_club.html">Students Club</a>
+                </li>
+              </ul>
+            </li>
+            <li class="flex gap-1 group relative">
+              <a href="#" class="group-hover:text-brand-500">News</a>
+              <div class="block group-hover:hidden">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="hidden group-hover:block" id="up-arrow3">
+                <i class="fa-solid fa-angle-up"></i>
+              </div>
+              <ul
+                class="absolute -left-4 p-2 rounded-lg translate-y-0 group-hover:translate-y-7 duration-200 transition-all ease-in opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 w-[200px] shadow-sm"
+              >
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./blog.html">Blog</a>
+                </li>
+                <li
+                  class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg p-2"
+                >
+                  <a href="./work_with_us.html">Work With Us</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="./contact_us.html" class="hover:text-brand-500"
+                >Contact Us</a
+              >
+            </li>
+            <button
+              class="px-3 py-2 bg-brand-500 rounded-lg hover:bg-brand-400 hover:shadow-sm duration-200 active:scale-50"
+            >
+              <a href="./support_us.html">Support Us</a>
+            </button>
+          </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="flex items-center gap-5 lg:hidden">
+          <button
+            class="lg:hidden font-bold px-3 py-2 bg-brand-500 rounded-lg hover:bg-brand-400 hover:shadow-sm"
+          >
+            <a href="./support_us.html" class="text-sm">Support Us</a>
+          </button>
+          <button class="lg:hidden" id="mobile-menu-button">
+            <div class="w-5" id="open-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path
+                  d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+                />
+              </svg>
+            </div>
+            <div class="w-5 hidden" id="close-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path
+                  d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </nav>
+      <div class="hidden absolute w-full lg:hidden" id="mobile-menu">
+        <ul class="bg-gray-100 w-full px-8 pb-4 shadow-sm">
+          <li class="p-2 hover:text-brand-500 hover:bg-white font-bold">
+            <a href="./index.html">Home</a>
+          </li>
+          <li
+            class="p-2 hover:text-brand-500 hover:bg-white font-bold flex gap-2"
+            id="about-us"
+          >
+            <a href="#">About Us</a>
+            <div class="block"><i class="fa-solid fa-angle-down"></i></div>
+          </li>
+          <ul id="sub-about-us" class="hidden">
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./who_are_we.html">Who are we?</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./history.html">History</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./vision_mission.html">Vision/Mission</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./learning_strategy.html">Learning Strategy</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./staffs_smt.html">Staffs/SMT</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./structure.html">Structure</a>
+            </li>
+          </ul>
+
+          <li
+            class="p-2 hover:text-brand-500 hover:bg-white font-bold flex gap-2"
+            id="academic-menu"
+          >
+            <a href="#">Academic</a>
+            <div class="block"><i class="fa-solid fa-angle-down"></i></div>
+          </li>
+          <ul id="sub-academic" class="hidden">
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./diploma_program.html">Diploma Program</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./admission.html">Admission</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./residential_support.html">Residential Support</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./library.html">Library</a>
+            </li>
+          </ul>
+
+          <li
+            class="p-2 hover:text-brand-500 hover:bg-white font-bold flex gap-2"
+            id="community-menu"
+          >
+            <a href="#">Community</a>
+            <div class="block"><i class="fa-solid fa-angle-down"></i></div>
+          </li>
+          <ul id="sub-community" class="hidden">
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./alumni.html">Alumni</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./ac_members.html">AC Members</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./students_council.html">Student Council</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./students_department.html">Student Department</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./students_club.html">Student Clubs</a>
+            </li>
+          </ul>
+
+          <li
+            class="p-2 hover:text-brand-500 hover:bg-white font-bold flex gap-2"
+            id="news-menu"
+          >
+            <a href="#">News</a>
+            <div class="block"><i class="fa-solid fa-angle-down"></i></div>
+          </li>
+          <ul id="sub-news" class="hidden">
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./blog.html">Blog</a>
+            </li>
+            <li
+              class="hover:bg-white hover:text-brand-500 transition-all duration-200 rounded-lg py-2 pl-7"
+            >
+              <a href="./work_with_us.html">Work With Us</a>
+            </li>
+          </ul>
+          <li class="p-2 hover:text-brand-500 hover:bg-white font-bold">
+            <a href="./contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- end of header -->
+
+    <!-- Hero Section start -->
+<section>
+          <div class="relative w-full min-h-[600px] overflow-hidden pt-20">
+           <!-- Background Image with Overlay -->
+          
+                 <div class="absolute inset-0">
+                <img src="./img/Diploma.jpg" alt="" class="w-full h-full object-cover" />
+                <!-- Dark overlay that appears only in dark mode -->
+                <div class="absolute inset-0 bg-black/0 dark:bg-black/40"></div>
+            </div>
+
+            <div class="relative w-full md:w-[600px] lg:w-[700px] p-8 md:p-12 mt-8 md:mt-12 mx-auto md:mr-8 lg:mr-12">
+                <div class="bg-white/90  p-8 rounded-lg backdrop-blur-sm">
+                    <div class="max-w-2xl">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4 ">
+                          Who Are We?
+                        </h2>
+
+                        <p class="text-gray-700 text-base md:text-lg mb-6">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit sed quod, nihil recusandae eligendi veniam, obcaecati dolorem hic sequi, minima nam maiores ex. Dolor praesentium, vero accusamus rem quod blanditiis!
+                    </div>
+                </div>
+            </div>
+            </div>
+            </section>
+    <!-- Hero Section End -->
+
+    <!-- article start -->
+    <section class="md:w-3/4 mx-auto py-10 p-5 mt-10">
+      <h1 class="text-5xl font-bold text-center mb-6"> Level Up College</h1>
+      <article class=" gap-6 text-xl">
+        <p class=" font-bold mb-6 ">
+          Level Up Colleges is a community-based, non-profit higher education
+          institution empowering youth from diverse backgrounds, especially
+          those from marginalized communities and conflict-affected areas in
+          Kayah (Karenni) State and the nearby region.
+        </p>
+        <div class=" space-y-6 mb-6">
+          <p class="">
+            The college offers a tailored curriculum for students, emphasizing
+            social and development studies. The college is dedicated to
+            promoting access to higher education, where contextualized academic
+            excellence and holistic education are practiced through experiential
+            learning, theoretical studies, and community engagement activities.
+          </p>
+          <p>
+            Founded in 2012, Level Up College believes in education as a
+            catalyst for social change and values the collective wisdom of
+            individuals, recognizing diverse knowledge and experiences. Level Up
+            College is an educational institution that welcomes youth from all
+            walks of life who aspire to become agents of positive change and
+            contribute to the sustainable development of their communities.
+            Level Up College aspires to be the top-choice institution for
+            students seeking holistic, high-quality higher education in the
+            region.
+          </p>
+          <p>
+            It is a worthwhile investment and contribution for philanthropists,
+            foundations, and agencies seeking to support lasting and impactful
+            social change for youth in Myanmar.
+          </p>
+        </div>
+
+        <p class="font-bold ">
+          "Committed to equity and accessibility, the college provides full and
+          partial scholarships, along with stipends, to financially
+          disadvantaged students, ensuring that economic barriers do not hinder
+          educational opportunities."
+        </p>
+      </article>
+    </section>
+
+    <!-- article end -->
+
+    <!-- school philosophy start -->
+
+    <section>
+      <div
+        class="bg-[url('./img/Philosophy.jpg')] w-full h-auto bg-cover bg-center cursor-pointer"
+      >
+        <div class="container flex justify-end items-center mx-auto p-5 py-32">
+          <div
+            class="bg-white bg-opacity-80 p-6 md:w-1/2 rounded-md hover:shadow-md hover:scale-105 transition duration-200"
+          >
+            <h1
+              class="font-bold text-3xl pb-2 border-b border-black text-brand-500"
+            >
+              Our Philosophy
+            </h1>
+            <p class="pt-2">
+              We believe in the power of education as a tool for social change,
+              where collective wisdom is valued, individual knowledge and
+              experiences are celebrated. We trust in learners’ potential to be
+              positive change makers, emphasizing the uniqueness of their
+              abilities. Educators play a role in nurturing these potentials
+              within a healthy and safe environment through participatory,
+              experiential, creative and reflective learning approaches.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- School Philosophy end -->
+
+    <!-- Vision mission goal value start -->
+
+    <section class="my-10 container mx-auto">
+
+      <h1 class="text-center text-4xl md:text-5xl font-bold  mt-10 px-5">Our Vision and Mission</h1>
+
+      <div class="grid md:grid-cols-2 grid-cols-1 gap-4 mt-6 px-5">
+            <div class="flex flex-col items-center space-y-4 p-5 bg-gray-100 rounded-xl hover:shadow-lg transition-all duration-200">
+              <div class="w-20">
+                <svg
+                  fill="#000000"
+                  viewBox="0 0 96 96"
+                  data-name="Your Icons"
+                  id="Your_Icons"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title></title>
+                    <path
+                      d="M47.51,31.19l-1.2-.44A36,36,0,0,1,42,28.84c-2.92-1.57-5.64-6.52-5.94-7.08L35.15,20,37,19.55c.4-.11,4-.93,8.6,2.07s3.32,7.09,2.52,8.47Zm-9.35-9.8c1.05,1.83,3.05,4.75,4.8,5.69a31.46,31.46,0,0,0,3.62,1.63c.38-.95,1-3.44-2-5.42A10.19,10.19,0,0,0,38.16,21.39Z"
+                    ></path>
+                    <path
+                      d="M48.14,31.19l-.64-1.11A6.29,6.29,0,0,1,50,21.62c4.55-3,8.19-2.17,8.6-2.07L60.5,20l-.92,1.72c-.3.55-3,5.5-5.95,7.08a36.52,36.52,0,0,1-4.3,1.91Zm8.78-9.82a10.65,10.65,0,0,0-5.8,1.92c-3,2-2.44,4.46-2,5.42a33.08,33.08,0,0,0,3.62-1.63c1.76-.95,3.75-3.87,4.8-5.69Z"
+                    ></path>
+                    <path
+                      d="M47.25,49.74l-1.34-.49a51.71,51.71,0,0,1-5.72-2.54c-3.83-2.06-7.43-8.62-7.82-9.36l-1-1.92,2.09-.55c.21-.05,5.15-1.27,11.26,2.73C51.53,42.09,48,48.44,48,48.5Zm-12.93-13c1.34,2.42,4.25,6.82,6.82,8.21a47.39,47.39,0,0,0,5.19,2.32c.46-1,1.86-5-2.74-8S35.47,36.56,34.32,36.74Z"
+                    ></path>
+                    <path
+                      d="M48.4,49.74l-.71-1.24c0-.06-3.58-6.41,3.27-10.89,6-3.92,10.73-2.86,11.25-2.73l2.1.55-1,1.92c-.4.74-4,7.3-7.83,9.36a51.71,51.71,0,0,1-5.72,2.54ZM60,36.65a14.65,14.65,0,0,0-8,2.63c-4.59,3-3.2,7-2.74,8A47.39,47.39,0,0,0,54.5,45c2.57-1.39,5.48-5.79,6.83-8.21A9.49,9.49,0,0,0,60,36.65Z"
+                    ></path>
+                    <path
+                      d="M52.82,84.93H42.9a5.68,5.68,0,0,1-5.65-5.7V61.94a52,52,0,0,0-3.68-5.83c-4.52-6.73-11.35-16.9-12-23.54a23.74,23.74,0,0,1,6-18.88C32.66,8,40.62,4.33,47.82,4.33a28.42,28.42,0,0,1,21.29,9.94,22.13,22.13,0,0,1,5,18.37c-1.35,7.45-7.87,17.17-12.18,23.61a42.76,42.76,0,0,0-3.47,5.6V79.23A5.68,5.68,0,0,1,52.82,84.93Zm-5-78.6A27,27,0,0,0,29,15a21.82,21.82,0,0,0-5.5,17.33c.63,6.15,7.3,16.07,11.71,22.63,3,4.44,4,6,4,6.95V79.23a3.67,3.67,0,0,0,3.65,3.7h9.92a3.68,3.68,0,0,0,3.65-3.7V61.78c0-.92,1-2.43,3.8-6.64,4.22-6.3,10.59-15.82,11.87-22.85a20.14,20.14,0,0,0-4.57-16.73A26.37,26.37,0,0,0,47.82,6.33Z"
+                    ></path>
+                    <path d="M61,64.53H34.68a1,1,0,0,1,0-2H61a1,1,0,0,1,0,2Z"></path>
+                    <path
+                      d="M48.86,25.73c-.27,3.15-.32,6.3-.28,9.45a37.31,37.31,0,0,0,.24,4.72c.2,1.58.47,3.16.52,4.73.18,3.15-.58,6.3-.65,9.45a93.13,93.13,0,0,0,.17,9.45,1,1,0,1,1-2,.16.43.43,0,0,1,0-.16A90.31,90.31,0,0,0,47,54.08c-.07-3.15-.82-6.3-.64-9.45,0-1.57.32-3.15.51-4.73a37.32,37.32,0,0,0,.25-4.72c0-3.15,0-6.3-.28-9.45a1,1,0,1,1,2-.17Z"
+                    ></path>
+                    <!-- <path
+                      d="M79.17,92H67.06a1,1,0,0,1,0-2H79.17a1,1,0,1,1,0,2Z"
+                    ></path> -->
+                    <!-- <path d="M63.24,92h-27a1,1,0,0,1,0-2h27a1,1,0,0,1,0,2Z"></path>
+                    <path d="M31.38,92H27.7a1,1,0,0,1,0-2h3.68a1,1,0,1,1,0,2Z"></path>
+                    <path d="M20,92H18.37a1,1,0,0,1,0-2H20a1,1,0,1,1,0,2Z"></path> -->
+                    <path d="M45,70.44H38.25a1,1,0,0,1,0-2H45a1,1,0,0,1,0,2Z"></path>
+                    <path
+                      d="M57.47,78.32H50.61a1,1,0,0,1,0-2h6.86a1,1,0,0,1,0,2Z"
+                    ></path>
+                    <path
+                      d="M47.81,92h-.12a5.25,5.25,0,0,1-5.25-5.25V82.93H53.06v3.82A5.25,5.25,0,0,1,47.81,92Zm-3.37-7.07v1.82A3.26,3.26,0,0,0,47.69,90h.12a3.26,3.26,0,0,0,3.25-3.25V84.93Z"
+                    ></path>
+                    <path
+                      d="M39.8,17.4a1,1,0,0,1-.95-.69l-1.69-5.08a1,1,0,0,1,1.9-.63l1.69,5.08a1,1,0,0,1-.63,1.26A1,1,0,0,1,39.8,17.4Z"
+                    ></path>
+                    <path
+                      d="M56.6,17.75a.85.85,0,0,1-.31-.06,1,1,0,0,1-.63-1.26l1.69-5.08a1,1,0,0,1,1.89.63l-1.69,5.08A1,1,0,0,1,56.6,17.75Z"
+                    ></path>
+                    <path
+                      d="M48,16.26a1,1,0,0,1-1-1V9.91a1,1,0,1,1,2,0v5.35A1,1,0,0,1,48,16.26Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+                <h1 class="text-4xl font-bold text-brand-500">Our Vision</h1>
+                <p class="text-center">
+                  Empowered youth as quality human resources for the positive change
+                  of the community
+                </p>
+            </div>
+
+            <div class="flex flex-col items-center space-y-4 p-5 bg-gray-100 rounded-xl hover:shadow-lg transition-all duration-200">
+              <div class="w-20">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31 32" enable-background="new 0 0 31 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path fill="#00000" d="M23,4.5c-0.276,0-0.5,0.224-0.5,0.5v3.229l-2.295,2.26c-2.146-2.006-5.017-3.244-8.179-3.244 c-6.617,0-12,5.383-12,12c0,3.531,1.542,6.7,3.977,8.898l-2.355,3.024c-0.17,0.218-0.131,0.532,0.087,0.702 c0.092,0.071,0.2,0.105,0.308,0.105c0.148,0,0.296-0.066,0.395-0.193l2.335-2.999c2.017,1.538,4.527,2.463,7.254,2.463 c2.724,0,5.231-0.923,7.247-2.458l2.271,3.013C21.642,31.931,21.791,32,21.942,32c0.105,0,0.211-0.033,0.301-0.101 c0.221-0.167,0.265-0.48,0.099-0.7l-2.299-3.051c2.438-2.198,3.982-5.37,3.982-8.903c0-3.096-1.188-5.912-3.12-8.043L23.143,9H26.5 C26.776,9,27,8.776,27,8.5S26.776,8,26.5,8h-2.342l1.016-1H28.5C28.776,7,29,6.776,29,6.5S28.776,6,28.5,6h-2.311l1.016-1H30.5 C30.776,5,31,4.776,31,4.5S30.776,4,30.5,4h-3V1c0-0.276-0.224-0.5-0.5-0.5S26.5,0.724,26.5,1v3.291l-1,0.985V3 c0-0.276-0.224-0.5-0.5-0.5S24.5,2.724,24.5,3v3.26l-1,0.985V5C23.5,4.724,23.276,4.5,23,4.5z M23.025,19.246 c0,6.065-4.935,11-11,11s-11-4.935-11-11s4.935-11,11-11c2.883,0,5.503,1.124,7.467,2.946l-2.137,2.105 c-1.417-1.27-3.281-2.051-5.329-2.051c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8c0-2.004-0.746-3.833-1.968-5.238l2.136-2.103 C21.948,13.854,23.025,16.423,23.025,19.246z M15.025,19.246c0,1.654-1.346,3-3,3s-3-1.346-3-3s1.346-3,3-3 c0.655,0,1.257,0.217,1.751,0.574l-2.101,2.069c-0.197,0.194-0.199,0.511-0.006,0.707c0.098,0.1,0.228,0.149,0.356,0.149 c0.127,0,0.254-0.048,0.351-0.144l2.104-2.072C14.821,18.017,15.025,18.607,15.025,19.246z M14.489,16.118 c-0.681-0.538-1.53-0.873-2.463-0.873c-2.206,0-4,1.794-4,4s1.794,4,4,4s4-1.794,4-4c0-0.911-0.318-1.743-0.834-2.416l2.154-2.121 c1.045,1.223,1.68,2.806,1.68,4.537c0,3.86-3.141,7-7,7s-7-3.14-7-7s3.141-7,7-7c1.769,0,3.383,0.665,4.617,1.752L14.489,16.118z"></path> </g> </g></svg>
+              </div>
+                <h1 class="text-4xl font-bold text-brand-500">Our Mission</h1>
+                <p class="text-center">
+                  Level Up Academy exists to create quality educational opportunities and provide
+                  education services through hands-on learnings and training by engaging cooperation,
+                  social justice, equity and diversity for all young people with various situations in Karenni State.
+                </p>
+            </div>
+
+
+            
+            <div class="flex flex-col items-center space-y-4 p-5 bg-gray-100 rounded-xl hover:shadow-lg transition-all duration-200">
+              <div class="w-20">
+                <svg fill="#000000"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M479.553,496.358l-144.109-252.79l-54.808,98.238l-78.86-161.664V92.807h38.6l0.073,38.082 c-0.036,0.809-0.032,1.623,0.017,2.436c0.737,12.363,11.226,22.048,23.88,22.048h111.748l-18.613-46.925l18.613-46.925h-73.17 v15.642h50.137l-12.409,31.283l12.409,31.283h-88.717c-4.309,0-8.01-3.278-8.264-7.314h0.01l-0.002-1.049 c0.123-1.81,0.854-3.506,2.125-4.854c1.472-1.563,3.439-2.423,5.539-2.423h7.165c12.654,0,23.143-9.685,23.88-22.048 c0.053-0.886,0.054-1.771,0.006-2.65l-0.223-68.661C294.583,13.786,280.796,0,263.851,0h-77.717v81.336v11.47v87.336 L31.883,496.358H7.821V512h496.358v-15.642H479.553z M279.172,101.31c-0.349,3.953-4.006,7.138-8.251,7.138h-7.165 c-2.64,0-5.244,0.467-7.705,1.34l-0.033-16.982h15.493c2.1,0,4.067,0.86,5.539,2.423c1.225,1.3,1.956,2.923,2.117,4.66 L279.172,101.31z M201.776,15.642h62.075c8.32,0,15.09,6.77,15.09,15.115l0.156,47.699c-2.424-0.846-4.99-1.291-7.586-1.291 h-69.735V15.642z M335.589,275.145l55.357,97.124h-57.39c-1.996,0-3.812-1.989-3.812-4.171s1.818-4.171,3.812-4.171h3.878 c10.727,0,19.454-8.654,19.454-19.291c0-10.637-8.727-19.291-19.454-19.291h-29.851L335.589,275.145z M193.955,199.49 l64.953,133.153h-88.219c-2.138,0-3.812-1.604-3.812-3.65c0-2.046,1.675-3.65,3.812-3.65h3.878 c10.727,0,19.454-8.654,19.454-19.291s-8.727-19.291-19.454-19.291h-23.183L193.955,199.49z M49.142,496.358l94.613-193.955 h30.813c2.138,0,3.812,1.604,3.812,3.65c0,2.046-1.675,3.65-3.812,3.65h-3.878c-10.727,0-19.454,8.654-19.454,19.291 s8.727,19.291,19.454,19.291h95.849l72.231,148.073H49.142z M356.028,496.358l-67.105-137.566l9.933-17.806h38.577 c2.138,0,3.812,1.604,3.812,3.65c0,2.046-1.675,3.65-3.812,3.65h-3.878c-10.727,0-19.454,8.888-19.454,19.813 s8.727,19.813,19.454,19.813h66.306l61.811,108.448H356.028z"></path> </g> </g> </g></svg>
+              </div>
+                <h1 class="text-4xl font-bold text-brand-500">Our Goals</h1>
+                <p class="text-center">
+                  1. To develop students  attitude, knowledge, skill and network through providing quality education. <br>
+                  2. To increase students’ Community Spirit and the love of humanity and of nature through responding the needs of the rural and urban communities. <br>
+                  3. To promote diversity and equity through consultation and financial support. <br>
+                  4. To improve competence of youth for employment readiness and entrepreneur ventures.
+                </p>
+            </div>
+
+            <div class="flex flex-col items-center space-y-4 p-5 bg-gray-100 rounded-xl hover:shadow-lg transition-all duration-200">
+              <div class="w-20">
+                <svg fill="#000000" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="a"></g> <g id="b"></g> <g id="c"></g> <g id="d"> <path d="M58.24,24.24l-17.69-1.38-6.78-16.4c-.4-.97-1.53-1.44-2.5-1.04-.47,.2-.84,.56-1.04,1.04l-6.78,16.4-17.69,1.38c-.51,.04-.97,.28-1.31,.66-.33,.39-.49,.88-.45,1.39,.04,.5,.28,.98,.67,1.31l13.5,11.51-4.16,17.25c-.25,1.03,.39,2.06,1.41,2.31,.49,.12,1.02,.03,1.45-.23l15.12-9.29,15.12,9.29c.92,.56,2.09,.26,2.63-.63,.27-.44,.35-.95,.23-1.45l-4.16-17.25,13.5-11.51c.8-.68,.9-1.89,.21-2.7-.33-.38-.8-.63-1.31-.67Zm-2.92,1.76l-22.32,7.25v-8.97l22.32,1.71Zm-17.01-3.31l-5.31-.41V9.84l5.31,12.85Zm-7.31-12.85v23.41l-8.53-2.77,2.6-6.28,5.93-14.35Zm-10.43,20.02l-11.83-3.84,13.86-1.08-2.03,4.92Zm-12.5-1.96l22.31,7.25-5.27,7.25L8.07,27.89Zm11.81,12.67l4.05,3.46-7.31,10.06,3.26-13.52Zm-1.67,14.74l13.79-18.98,5.27,7.25-19.06,11.73Zm20.24-10.11l7.31,10.06-11.85-7.27,4.54-2.79Zm8.96,8.93l-13.79-18.98,8.53-2.77,5.27,21.75Zm-2.11-17.2l-1.25-5.18,11.82-3.84-10.58,9.02Z"></path> </g> <g id="e"></g> <g id="f"></g> <g id="g"></g> <g id="h"></g> <g id="i"></g> <g id="j"></g> <g id="k"></g> <g id="l"></g> <g id="m"></g> <g id="n"></g> <g id="o"></g> <g id="p"></g> <g id="q"></g> <g id="r"></g> <g id="s"></g> <g id="t"></g> <g id="u"></g> <g id="v"></g> <g id="w"></g> <g id="x"></g> <g id="y"></g> <g id="a`"></g> <g id="aa"></g> <g id="ab"></g> <g id="ac"></g> <g id="ad"></g> <g id="ae"></g> <g id="af"></g> <g id="ag"></g> <g id="ah"></g> <g id="ai"></g> <g id="aj"></g> <g id="ak"></g> <g id="al"></g> <g id="am"></g> <g id="an"></g> <g id="ao"></g> <g id="ap"></g> <g id="aq"></g> <g id="ar"></g> <g id="as"></g> <g id="at"></g> <g id="au"></g> <g id="av"></g> <g id="aw"></g> <g id="ax"></g> </g></svg>
+              </div>
+                <h1 class="text-4xl font-bold text-brand-500">Our Value</h1>
+                <p class="text-center">
+                  We work for those who we care about their needs aiming towards how we want to see
+                  them. All of our works are aiming towards our vision, strategic objectives and project
+                  goals, which are set because of our beliefs and values as follows. <br>
+                  <span class="text-2xl font-bold pt-6">We value:</span  >
+                  
+                </p>
+                <div class="flex gap-6 px-5 font-bold">
+                  <h1>Diversity</h1>
+                  <h1>Equity</h1>
+                  <h1>Quality</h1>
+                  <h1>Sustainability</h1>
+                </div>
+            </div>
+      </div>
+
+
+      <div>
+
+
+      </div>
+    </section>
+
+    <!-- vision mission goal value end -->
+
+    <!-- Footer Start -->
+
+    <footer class="bg-gray-800">
+      <section
+        class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      >
+        <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="sm:col-span-2">
+            <a
+              href="./index.html"
+              aria-label="Go home"
+              title="College"
+              class="inline-flex items-center"
+            >
+              <img src="./img/Updated logo.png" alt="" class="w-10" />
+              <span
+                class="ml-2 text-xl font-bold tracking-wide text-gray-200 uppercase"
+                >Level Up College</span
+              >
+            </a>
+            <div class="mt- lg:max-w-lg">
+              <p class="text-sm text-gray-200">
+                Level Up College is a community-based, non-profit higher
+                education institution empowering youth from diverse backgrounds,
+                especially those from marginalized communities and
+                conflict-affected areas in Kayah (Karenni) State and the nearby
+                region..
+              </p>
+            </div>
+          </div>
+          <div class="space-y-2 text-sm">
+            <p class="text-base font-bold tracking-wide text-gray-200">
+              Contacts
+            </p>
+            <div class="flex">
+              <p class="mr-1 text-gray-200 font-semibold">Phone:</p>
+              <a
+                href="tel:850-123-5021"
+                aria-label="Our phone"
+                title="Our phone"
+                class="text-gray-200"
+                >09-7954345234</a
+              >
+            </div>
+            <div class="flex">
+              <p class="mr-1 text-gray-200 font-semibold">Email:</p>
+              <a
+                href="#"
+                aria-label="Our email"
+                title="Our email"
+                class="text-gray-200"
+                >levelup.loikaw@gmail.com</a
+              >
+            </div>
+            <div class="flex">
+              <p class="mr-1 text-gray-200 font-semibold">Address:</p>
+              <a
+                href="https://www.google.com/maps"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Our address"
+                title="Our address"
+                class="text-gray-200"
+              >
+                312 Lovely Street, Loikaw, Kayah State(Karenni).
+              </a>
+            </div>
+          </div>
+          <div>
+            <span class="text-base font-bold tracking-wide text-gray-200"
+              >Social</span
+            >
+            <div class="flex items-center mt-1 space-x-3">
+              <a
+                href="/"
+                class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="/"
+                class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              >
+                <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
+                  <circle cx="15" cy="15" r="4"></circle>
+                  <path
+                    d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="/"
+                class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <p class="mt-4 text-sm text-gray-200">
+              Let's keep in touch by joining our social media platform.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-black lg:flex-row"
+        >
+          <p class="text-sm text-gray-200">
+            © Copyright 2025 Level Up College. All rights reserved.
+          </p>
+          <ul
+            class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row"
+          >
+            <li>
+              <a
+                href="/"
+                class="text-sm text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >F.A.Q</a
+              >
+            </li>
+            <li>
+              <a
+                href="/"
+                class="text-sm text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                href="/"
+                class="text-sm text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >Terms &amp; Conditions</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Footer End -->
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./swapper.js"></script>
+  </body>
+</html>
