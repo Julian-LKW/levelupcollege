@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
     "tailwindcss": "^3.4.17"
   },
   "name": "school-website",
@@ -65,7 +67,6 @@
     "picomatch": "^2.3.1",
     "pify": "^2.3.0",
     "pirates": "^4.0.6",
-    "postcss": "^8.5.3",
     "postcss-import": "^15.1.0",
     "postcss-js": "^4.0.1",
     "postcss-load-config": "^4.0.2",
@@ -104,8 +105,9 @@
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "start": "concurrently \"npm run start:css\" \"react-scripts start\"",
     "start:css": "tailwindcss -o src/tailwind.css --watch",
-    "build": "npm run build:css && react-scripts build",
-    "build:css": "NODE_ENV=production tailwindcss -o src/tailwind.css -m"
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "copy:html": "cp ./src/index.html ./dist/index.html",
+    "build": "npm run build:css && npm run copy:html"
   },
   "keywords": [],
   "author": "",

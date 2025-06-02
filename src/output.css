@@ -1796,16 +1796,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-secondary-950{
-  --tw-text-opacity: 1;
-  color: rgb(19 23 67 / var(--tw-text-opacity, 1));
-}
-
-.text-secondary-900{
-  --tw-text-opacity: 1;
-  color: rgb(38 48 137 / var(--tw-text-opacity, 1));
-}
-
 .text-opacity-20{
   --tw-text-opacity: 0.2;
 }
